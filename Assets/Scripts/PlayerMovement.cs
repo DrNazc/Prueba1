@@ -118,11 +118,9 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(AgitarCamara());
             //anim.SetBool("dash",true);    Cambiamos la animacion de lugar y la colocamos dentro de la corutina
  
- 
             //puedeDash = true;
             rbody.velocity = Vector2.zero;
             rbody.velocity += new Vector2(currentSpeed,rbody.velocity.y).normalized * velocidadDash;
- 
  
             StartCoroutine(PrepararDash());
         }
