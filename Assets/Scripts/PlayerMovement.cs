@@ -126,9 +126,6 @@ public class PlayerMovement : MonoBehaviour
  
             StartCoroutine(PrepararDash());
         }
- 
- 
- 
     }
  
  
